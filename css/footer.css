@@ -1,0 +1,15 @@
+.footer {
+    height: 100px;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-contact{
+    align-items: center;
+}

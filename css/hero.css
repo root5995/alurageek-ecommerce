@@ -1,0 +1,48 @@
+.hero {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    
+    background-color: #000000;
+    padding-bottom: 2rem;
+    overflow-wrap: break-word;
+}
+
+.hero .container{
+    max-width: 100%;
+}
+
+.hero-title {
+    max-width: 60vw;
+
+}
+
+.title {
+    font-size: 3.5rem;
+    color: #ffffff;
+
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    color: #ffffff;
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .subtitle {
+        font-size: 1rem; 
+    
+    }
+}
+

@@ -1,0 +1,130 @@
+.contact-section {
+    padding: 5rem 0;
+    background-color: #EAF2FD;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+
+}
+
+
+.logo-contact {
+    display: flex;
+    padding-right: 5rem;
+
+}
+
+.contact-left{
+    display: flex;
+    width: 45%;
+
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+}
+
+.input {
+    height: 4rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+.textarea {
+    height: 7rem;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+
+/* ===anteriores */
+
+/* .contact {
+    display: flex;
+    justify-content: space-between;
+}
+.logo-contact {
+    display: flex;
+}
+.contact-section {
+    padding: 5rem 0;
+    background-color: #EAF2FD;
+}
+.contact-left {
+    display: flex;
+    justify-content: space-between;
+}
+.company-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+.contact-form {   
+}
+.contact-form.button{
+    margin-top: 2rem;
+}
+.input {
+    height: 4rem;
+    width: 560px;
+    margin-top: 1rem;
+}
+.textarea {
+    height: 7rem;
+    width: 560px;
+
+} */
+
+@media screen and (max-width: 768px) {
+    .contact-left {
+        flex-direction: column;
+    }
+    .company-info{
+        height: 100%;
+    }
+    .alura-logo.logo-contact{
+        font-size: 1.5rem;
+    }
+    .input, .textarea {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 360px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-section {
+        padding: 1rem 0;
+    }
+    .company-info{
+        text-align: center;
+        justify-content: space-between;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .logo-contact {
+        padding-right: 0;
+    
+    }
+    
+
+    
+}
+

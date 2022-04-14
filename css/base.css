@@ -1,0 +1,57 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1136px;
+
+
+}
+
+
+
+.blue {
+    color: #2A7AE4;
+}
+
+.button {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solid {
+    background-color: #2A7AE4;
+    color: #ffffff;
+
+}
+
+.ghost {
+    border: 1px solid #2A7AE4;
+    height: 48px;
+    color: #2A7AE4;
+}
+
+
+@media screen and (max-width: 768px) {
+    .button {
+        width: 160px;
+        height: 40px;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+
+    .button {
+        width: 160px;
+        height: 40px;
+    }
+}

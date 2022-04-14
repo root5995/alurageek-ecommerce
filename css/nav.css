@@ -1,0 +1,90 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-nav {
+    align-items: center;
+
+}
+
+.logo-img {
+    height: 50px;
+    width: 50px;
+}
+
+.alura-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search {
+    margin-left: 2rem;
+    width: 350px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    padding-left: 1rem;
+}
+
+.search-icon {
+    margin-left: -40px;
+}
+
+.search-icon-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        height: 72px;
+    }
+
+    .search {
+        width: 35vw;
+    }
+    .logo-img {
+        height: 25px;
+        width: 28px;
+    }
+    
+    .alura-logo {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+
+    .search, .search-icon {
+        display: none;
+    }
+
+    .search-icon-mobile {
+        display: flex;
+        height: 20px;
+        width: auto;
+        margin-left: -30px;
+    }    
+    
+}
